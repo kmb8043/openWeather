@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title> Open Weather API</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1> Weather Dashboard </h1>
+    <div class="container">
+        <div class="weather-input">
+            <h3> Enter a city name </h3>
+            <input class="cityInput" type="text" placeholder="E.g., New York City">
+            <button class="searchBtn"> Search </button>
+
+            <div class="container">
+                <div class="saved-searches">
+                    <h2>Saved Searches</h2>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="weatherData">
+        <div class="currentWeather">
+            <div class="details">
+                <h2 id="city"></h2>
+                <h4 id="forecasedate"></h4>
+                <h4 id="forecastTemp"></h4>
+                <h4 id="forecastWind"></h4>
+                <h4 id="forecastHumid"></h4>
+            </div>
+            <img id="icon"></img>
+        </div>
+
+        <div class="fiveDayForecast">
+            <h2> 5 Day Forecast </h2>
+            <ul class="weatherCard">
+                 <li class="card">
+                    <h3 id="forecasedate">( ____ )</h3>
+                    <h4 id="forecastTemp">Temperature: __℉ </h4>
+                    <h4 id="forecastWind">Wind: __ </h4>
+                    <h4 id="forecastHumid">Humidity: __ %</h4>
+                    <img id="icon"></img>
+                </li>
+    
+                <li class="card">
+                    <h3 id="forecasedate">( ____ )</h3>
+                    <h4 id="forecastTemp">Temperature: __℉ </h4>
+                    <h4 id="forecastWind">Wind: __ </h4>
+                    <h4 id="forecastHumid">Humidity: __ %</h4>
+                    <img id="icon"></img>
+                </li>
+    
+    
+                <li class="card">
+                    <h3 id="forecasedate">( ____ )</h3>
+                    <h4 id="forecastTemp">Temperature: __℉ </h4>
+                    <h4 id="forecastWind">Wind: __ </h4>
+                    <h4 id="forecastHumid">Humidity: __ %</h4>
+                    <img id="icon"></img>
+                </li>
+    
+                <li class="card">
+                    <h3 id="forecasedate">( ____ )</h3>
+                    <h4 id="forecastTemp">Temperature: __℉ </h4>
+                    <h4 id="forecastWind">Wind: __ </h4>
+                    <h4 id="forecastHumid">Humidity: __ %</h4>
+                    <img id="icon"></img>
+                </li>
+    
+                <li class="card">
+                    <h3 id="forecasedate">( ____ )</h3>
+                    <h4 id="forecastTemp">Temperature: __℉ </h4>
+                    <h4 id="forecastWind">Wind: __ </h4>
+                    <h4 id="forecastHumid">Humidity: __ %</h4>
+                    <img id="icon"></img>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+<script src="/assets/js/weather.js"></script>
+</body>
