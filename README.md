@@ -4,15 +4,8 @@
 For this project I wanted to create an quick and easy to use weather site using an Open WeatherMap API. 
 The user will get results back about the current weather they are searching for and a five day forecast.
 
-## Table of contents ##
-  * [Installation] (#installation)
-  * [Usage] (#usage)
-  * [License] (#license)
-  * [Contact] (#contact)
-
 ## Installation ##
-The user can simply click the link below in order to use the application.
-If the user would like to contribute to the project the user can clone the SSH into their own folder in the terminal.
+The user will need to clone the repo.
 
 ## Usage ## 
 The site is meant to be easy and simple to use. 
@@ -23,8 +16,5 @@ The cities the user searches for will be saved into a section of pervious search
 ![Screenshot (7)](https://github.com/kmb8043/weatherAPI/assets/147110705/c8205787-8f5d-43fd-8ad4-a168f4e4580d)
 
 ## License ##
-
 MIT
 
-## Contact ##
-https://github.com/kmb8043 
